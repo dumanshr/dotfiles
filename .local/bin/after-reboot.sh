@@ -24,7 +24,7 @@ gnome-extension-install "appindicatorsupport@rgcjonas.gmail.com" # appindicator
 
 # systemctl --user enable pipewire-pulse
 
-# sudo $HOME/.local/bin/run-as-root.sh
+sudo $HOME/.local/bin/run-as-root.sh
 
 flatpak install -y flathub 
 # 	org.libreoffice.LibreOffice \
@@ -43,7 +43,7 @@ flatpak install -y flathub
 
 # echo "Do you want to restart?: [y/N]: "
 # read confirm
-# rm $HOME/.config/autostart/firstconfig.desktop
+rm $HOME/.config/autostart/firstconfig.desktop
 # rm $HOME/.local/bin/run-as-root.sh
 # rm rm $HOME/.local/bin/after-reboot.sh
 
