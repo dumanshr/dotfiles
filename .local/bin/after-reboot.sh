@@ -24,31 +24,30 @@ gnome-extension-install "appindicatorsupport@rgcjonas.gmail.com" # appindicator
 
 # systemctl --user enable pipewire-pulse
 
-sudo $HOME/.local/bin/run-as-root.sh
+# sudo $HOME/.local/bin/run-as-root.sh
 
-flatpak install -y \
-	flathub \
-	org.libreoffice.LibreOffice \
-	org.onlyoffice.desktopeditors \
-	com.obsproject.Studio \
-	org.videolan.VLC \
-	org.gimp.GIMP \
-	org.kde.kdenlive \
-	org.audacityteam.Audacity\
-	us.zoom.Zoom \
-	com.github.xournalpp.xournalpp \
-	flathub com.github.tchx84.Flatseal  \
-	com.brave.Browser \
-	org.qbittorrent.qBittorrent
+flatpak install -y flathub 
+# 	org.libreoffice.LibreOffice \
+# 	org.onlyoffice.desktopeditors \
+# 	com.obsproject.Studio \
+# 	org.videolan.VLC \
+# 	org.gimp.GIMP \
+# 	org.kde.kdenlive \
+# 	org.audacityteam.Audacity\
+# 	us.zoom.Zoom \
+# 	com.github.xournalpp.xournalpp \
+# 	flathub com.github.tchx84.Flatseal  \
+# 	com.brave.Browser \
+# 	org.qbittorrent.qBittorrent
 
 
-echo "Do you want to restart?: [y/N]: "
-read confirm
-rm $HOME/.config/autostart/firstconfig.desktop
-rm $HOME/.local/bin/run-as-root.sh
-rm rm $HOME/.local/bin/after-reboot.sh
+# echo "Do you want to restart?: [y/N]: "
+# read confirm
+# rm $HOME/.config/autostart/firstconfig.desktop
+# rm $HOME/.local/bin/run-as-root.sh
+# rm rm $HOME/.local/bin/after-reboot.sh
 
-if [[ xy == x$confirm || xY == x$confirm ]]; then
-	reboot
-fi
+# if [[ xy == x$confirm || xY == x$confirm ]]; then
+# 	reboot
+# fi
 
