@@ -24,7 +24,7 @@ gnome-extension-install "appindicatorsupport@rgcjonas.gmail.com" # appindicator
 
 # systemctl --user enable pipewire-pulse
 
-sudo run-as-root.sh
+sudo $HOME/.local/bin/run-as-root.sh
 
 flatpak install -y \
 	flathub \
