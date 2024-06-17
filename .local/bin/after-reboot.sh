@@ -26,7 +26,7 @@ gnome-extension-install "appindicatorsupport@rgcjonas.gmail.com" # appindicator
 
 sudo $HOME/.local/bin/run-as-root.sh
 
-flatpak install -y flathub 
+flatpak install -y flathub \
 	org.libreoffice.LibreOffice \
 	org.onlyoffice.desktopeditors \
 	com.obsproject.Studio \
