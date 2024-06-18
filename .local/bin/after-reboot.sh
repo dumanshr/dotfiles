@@ -26,6 +26,10 @@ gnome-extension-install "appindicatorsupport@rgcjonas.gmail.com" # appindicator
 
 sudo $HOME/.local/bin/run-as-root.sh
 
+curl -o /tmp/config-download.sh https://raw.githubusercontent.com/dumanshr/dotfiles/master/.local/bin/config-download.sh
+chmod +x /tmp/config-download.sh
+/tmp/config-download.sh
+
 flatpak install -y flathub \
 	org.libreoffice.LibreOffice \
 	org.onlyoffice.desktopeditors \
